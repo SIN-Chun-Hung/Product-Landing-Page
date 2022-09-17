@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@media (max-width: 952px) {
+  
+  header {
+    flex-wrap: wrap;
+  }
+  
+  #part-guitar-pic, #delivery-service, #quality-assurance-icon {
+  width: 25% !important;
+  height: 25% !important;
+}
+  
+}
+
+@media (max-width: 800px) {
+  #Prices {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 1.7rem;
+  }
+  
+  .box {
+    width: 60% !important; 
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media (max-width: 700px) {
+  h1.title-head {
+    font-size: 1.5rem;
+  }
+  
+  a.nav-link {
+    font-size: 1.5rem;
+  }
+  
+  #part-guitar-pic, #delivery-service, #quality-assurance-icon {
+  width: 30% !important;
+  height: 30% !important;
+}
+  
+  #video {
+    width: 70%;
+    height: auto;
+  }
+  
+  .copyright-size {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 878px) {
+  main {
+    margin-top: 9rem !important;
+  }
+  
+}
+
+@keyframes hyperlink {
+  0% {color: black;}
+  50% {color: green;}
+  100% {color: red;}
+  
+}
+
+@keyframes submitbutton {
+  from {color: black;}
+  to   {color: white; background-color: black;}
+  
+}
+
+body {
+  font-family: "Indie Flower", monospace, sans-serif, Arial, Helvetica; 
+}
+
+main {
+  margin-top: 13rem;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed; 
+  top: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#header-img {
+  width: 25%;
+  margin-right: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  font-weight: 600;
+  margin: 0.8rem;
+}
+
+a:hover {
+  animation-name: hyperlink;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#subscribe {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#email , #submit {
+  display: block;
+  font-family: "Indie Flower", monospace, sans-serif, Arial, Helvetica; 
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+#submit {
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  animation-name: submitbutton;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#Feature-1, #Feature-2, #Feature-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#part-guitar-pic, #delivery-service, #quality-assurance-icon {
+  display: block;
+  width: 15%;
+  height: 15%;
+}
+
+#first-description, #second-description, #third-description {
+  width: 50%;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+#Pro-video {
+  margin-top: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#video {
+  position: relative;
+  margin: 0 auto;
+}
+
+#Prices {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+div ul {
+  text-align: left !important;
+}
+
+.box-title-color {
+  background-color: #eee;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}
+
+.box {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+}
+
+p, li {
+  text-align: justify;
+}
+
+footer {
+  background-color: #eee;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.inline-item {
+  display: inline;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  animation-name: hyperlink;
+  animation-duration: 3s;
+  animation-fill-mode: forward;
+}
