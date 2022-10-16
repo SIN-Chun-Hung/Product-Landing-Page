@@ -4,4 +4,10 @@ A Pen created on CodePen.io. Original URL: [https://codepen.io/sin-chun-hung/pen
 
 This is a Product Landing Page - Hello Guitar-Lovers! Best Guitar For You! Company.
 
-This page/pen is created by SIN Chun Hung SIMON , a mathematician from The Hong Kong University of Science and Technology (HKUST).
+This page owner information.
+
+SIN,Chun Hung SIMON.
+
+HKUST graduate.
+
+Mathematician. Developer.
