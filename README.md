@@ -6,8 +6,10 @@ This is a Product Landing Page - Hello Guitar-Lovers! Best Guitar For You! Compa
 
 This page owner information.
 
-SIN,Chun Hung SIMON.
+SIN,Chun Hung SIMON. 
 
-HKUST graduate.
+HKUST Graduate. 
 
-Mathematician. Developer.
+Major in Mathematics.
+
+A Lifelong Learner.
